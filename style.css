@@ -79,4 +79,36 @@ img {
   background: #0000ff;
 }
 
+input[type=checkbox] {
+  display: none;
+}
+
+.bi {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.bi-moon {
+  display: none;
+}
+
+/* Dark theme */
+.dark {
+  background-color: #263238;
+  color: #fff;
+}
+
+.dark .bi-sun {
+  display: none;
+}
+
+.dark .bi-moon {
+  display: block;
+}
+
+.Header {
+  color: red;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
