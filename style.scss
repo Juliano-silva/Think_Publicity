@@ -11,6 +11,9 @@ $Combination4:#FCE05D;
 body{
     overflow-x: hidden;
 }
+body::-webkit-scrollbar{
+    width: 0px;
+}
 .sub-header{
     background: #800080;
     text-align: center;
@@ -31,6 +34,9 @@ img{
     border: 5px solid blue;
     margin: auto;
 }
+.Sobre:nth-child(1)>h1{background: #2EA2EF;}
+.Sobre:nth-child(2)>h1{background: #FBB44D;}
+.Sobre:nth-child(3)>h1{background: #DC79FF;;}
 .Sobre:nth-child(1){background: #14e1fc;}
 .Sobre:nth-child(2){background: #FFA632;}
 .Sobre:nth-child(3){background: #CA58EB;}
@@ -92,4 +98,15 @@ input[type="checkbox"] {
 .Header{
     color: red;
     text-align: center;
+}
+@media (max-width:700px) {
+    .SobreConteúdo{
+        border: 1px solid white;
+        display: table-cell;
+    }
+    .Sobre{
+        margin: auto;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
 }
