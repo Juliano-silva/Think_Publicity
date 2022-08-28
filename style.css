@@ -152,10 +152,6 @@ input[type=checkbox] {
   font-size: 25px;
 }
 
-.BolaConteudo > p {
-  margin-top: 40px;
-}
-
 #BoButton {
   position: absolute;
   margin-top: 138px;
@@ -166,6 +162,85 @@ input[type=checkbox] {
   color: white;
   border-radius: 20px;
   margin-left: 2em;
+}
+
+#BoxCentral {
+  display: block;
+  border: 1px solid red;
+  background: red;
+  width: 40em;
+  height: 40em;
+}
+
+.circular-menu {
+  width: 460px;
+  height: 460px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 300px;
+}
+
+.circle {
+  width: 800px;
+  height: 800px;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.open.circle {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+}
+
+.circle a {
+  text-decoration: none;
+  color: chartreuseb;
+  display: block;
+  height: 40px;
+  width: 150px;
+  font-size: 30px;
+  line-height: 40px;
+  margin-left: -220px;
+  margin-top: -300px;
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+
+.circle a:hover {
+  color: #eef;
+}
+
+.menu-button {
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  text-decoration: none;
+  text-align: center;
+  color: red;
+  border-radius: 50%;
+  display: block;
+  height: 20em;
+  width: 20em;
+  line-height: 40px;
+  padding: 10px;
+  background: #444;
+  margin-left: -120px;
+  margin-top: -250px;
+  border: 1px solid white;
+}
+
+.menu-button > span {
+  display: block;
+  font-size: 40px;
+  margin-top: 120px;
 }
 
 @media (max-width: 700px) {
