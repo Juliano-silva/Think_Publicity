@@ -15,13 +15,13 @@ body::-webkit-scrollbar{
     width: 0px;
 }
 .sub-header{
-    background: #800080;
+    background: transparent;
     text-align: center;
 }
 .sub-header > a{
     font-size: 30px;
     text-align: center;
-    color: #51B01E;
+    color: #51B015;
     text-decoration: none;
     padding: 1em;
 }
@@ -83,7 +83,7 @@ input[type="checkbox"] {
     background-color: #263238;
     color: #fff;
   }
-  .dark .bi-sun {
+  .dark .bi-sun{
     display: none;
   }
   
@@ -91,7 +91,7 @@ input[type="checkbox"] {
     display: block;
   }
 .Header{
-    color: red;
+    color: purple;
     text-align: center;
 }
 #Bolas{
@@ -101,8 +101,8 @@ input[type="checkbox"] {
   }
   .Bola{
     display: inline-table;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid purple;
+    color: purple;
     height: 20em;
     width: 20em;
     border-radius: 50%;
@@ -172,7 +172,7 @@ input[type="checkbox"] {
   margin-top: -300px;
   position: absolute;
   text-align: center;
-  color: white;
+  color: purple;
 
 }
 
@@ -186,7 +186,7 @@ input[type="checkbox"] {
   left: calc(50% - 30px);
   text-decoration: none;
   text-align: center;
-  color: red;
+  color: whitesmoke;
   border-radius: 50%;
   display: block;
   height: 20em;
@@ -205,6 +205,8 @@ input[type="checkbox"] {
 }
 .Home{
   border: 1px solid transparent;
+  width: 120em;
+  margin: auto;
 }
 #HomeDivs{
   display: inline-table;
@@ -225,14 +227,14 @@ input[type="checkbox"] {
 #HomeDivs > p{
   font-size: 30px;  
   margin-top: 20px;
-  border: 2px solid white;
+  border: 2px solid blueviolet;
   text-align: center;
   height: 10em;
   color: #60B01E;
   border-radius: 20px;
 }
 .Cores{
-  border: 3px solid white;
+  border: 3px solid black;
   color: white;
   margin: auto;
   margin-top: 30px;
